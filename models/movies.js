@@ -1,7 +1,7 @@
 module.exports = (sequelize, type) => {
   return sequelize.define ('movie', {
     imgen: type.STRING,
-    título: {
+    título: { 
       type: type.STRING,
       primaryKey:true,
       isAlphaNumeric:true,
