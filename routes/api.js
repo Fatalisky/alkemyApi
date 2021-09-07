@@ -12,5 +12,5 @@ router.use ('/characters', apiPersonajesRouter);
 router.use ('/movies', apiMoviesRouter);
 router.use ('/generos', apiGenerosRouter);
 router.use ('/users', apiUserRouter);
-
+ 
 module.exports = router;
