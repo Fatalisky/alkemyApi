@@ -10,7 +10,7 @@ module.exports = (sequelize, type) => {
 
   })
 }
-
+ 
 // const { Model, type } = require('sequelize');
 // const sequelize = require('../db');
 
