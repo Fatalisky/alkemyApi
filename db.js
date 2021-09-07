@@ -1,5 +1,5 @@
 const Sequelize = require ('sequelize')
-
+ 
 const PersonajeModel = require ('./models/personajes')
 const MovieModel = require ('./models/movies')
 const GeneroModel = require ('./models/generos')
