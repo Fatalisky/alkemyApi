@@ -23,7 +23,7 @@ req.userId = playload.userId;
 
   next();
 }
-
+ 
 module.exports = {
   checkToken: checkToken   
 }
