@@ -3,7 +3,7 @@
 
 module.exports = (sequelize, type) => {
   return sequelize.define ('personaje', {
-    id:{
+    id:{ 
       type: type.UUID,
       primaryKey:true
     },
